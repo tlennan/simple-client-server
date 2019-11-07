@@ -4,9 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>info-client</module>
+		<module>info-client</module>
+		<module>info-client-secured</module>
+		<module>info-security</module>
 		<module>info-server</module>
 		<module>info-server-impl</module>
+		<module>info-server-impl-secured</module>
 	</modules>
 
     <parent>

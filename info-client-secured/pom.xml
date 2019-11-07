@@ -9,5 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>info-server</artifactId>
+    <artifactId>info-client-secured</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.lennan</groupId>
+            <artifactId>info-client</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>net.lennan</groupId>
+            <artifactId>info-security</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
