@@ -2,7 +2,6 @@ package net.lennan.demo.info.server.impl;
 
 import net.lennan.demo.server.InfoServer;
 import net.lennan.demo.server.domain.Info;
-import org.springframework.web.bind.annotation.RestController;
 
 public class InfoServerImpl implements InfoServer {
 	@Override
