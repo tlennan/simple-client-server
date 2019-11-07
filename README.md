@@ -23,4 +23,4 @@ provide the below in the request body:
     "description": "desc"
 }
 
-When running the secured apps visit http://localhost:8080/do  This will cause the client to invoke the server and display the contend returned.
+When running the secured apps visit http://localhost:8080/do  This will cause the client to invoke the server and display the content returned.
