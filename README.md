@@ -13,3 +13,7 @@ Using the interface across all these areas allows the parts to be freely swapped
 there's no need to scale the client and server seperately then you could easily embed the server 
 implementation in the same app as the client with no changes to the client's business logic and web 
 interface.
+
+The security functionality for the client and server is split out into separate modules so they can 
+be developed and tested without the complications of the security implementation.  The security used 
+here (a work in progress) is using JWT as shown at https://www.javainuse.com/spring/boot-jwt
