@@ -16,4 +16,11 @@ interface.
 
 The security functionality for the client and server is split out into separate modules so they can 
 be developed and tested without the complications of the security implementation.  The security used 
-here (a work in progress) is using JWT as shown at https://www.javainuse.com/spring/boot-jwt
+here is using JWT as shown at https://www.javainuse.com/spring/boot-jwt.  To access the web interface
+provide the below in the request body:
+{
+    "name": "name",
+    "description": "desc"
+}
+
+When running the secured apps visit http://localhost:8080/do  This will cause the client to invoke the server and display the contend returned.
